@@ -1,0 +1,16 @@
+<style>
+body {
+    background-color: #eef;
+  }
+  div {
+    padding: 20px;
+  }
+</style>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<div id="log"></div>
+<script>
+$( document ).on( "mousemove", function( event ) {
+  $( "#log" ).text( "pageX: " + event.pageX + ", pageY: " + event.pageY );
+});
+</script>
